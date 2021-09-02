@@ -50,8 +50,8 @@ o jogo retornara False e a quantidade de peças removidas,
 e o partida não iniciará.
 
     * Caso não ocorrá a remoção de peças o jogo retornara
-True e a quantidade de peças removidas == 0, e o partida
-não iniciará.
+True e a quantidade de peças removidas == 0, e a partida
+iniciará nolmalmente.
 """
 if remove > 0:
     print("{}\n{}".format(False, remove))
